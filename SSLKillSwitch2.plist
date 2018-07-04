@@ -1,9 +1,15 @@
 {
 	Filter = {
+		Executables = (
+			"IDSRemoteURLConnectionAgent",
+			"IMRemoteURLConnectionAgent",
+			"IMDMessageServicesAgent",
+		);
 		Bundles = (
 			"com.apple.AuthKit",
 			"com.apple.UIKit",
 			"com.apple.itunesstored",
+			"com.apple.accountsd",
 		);
 	};
 }
